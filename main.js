@@ -20,7 +20,9 @@ function getPic(data = {}) {
                 const imgEl = document.createElement('div');
 
                 imgEl.classList.add('img-field')
-                imgEl.innerHTML = `<img src="http://multipleproduct.wacocolife.com/${img.url}" alt="test">`;
+                imgEl.innerHTML = `
+                <h3 class="title">${img.title}</h3>
+                <img src="http://multipleproduct.wacocolife.com/${img.url}" alt="商品圖片示意圖">`;
                 let imgArea = document.getElementById('img-sidebar')
                 imgArea.appendChild(imgEl)
             })

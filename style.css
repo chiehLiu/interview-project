@@ -369,6 +369,11 @@ tbody {
         left: 200px;
     }
 
+    .title {
+        position: relative;
+        left: 200px;
+    }
+
     #sidebar {
         position: relative;
         left: 200px;
