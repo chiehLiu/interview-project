@@ -4,26 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style src="style.css"></style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ae9e2b502.js" crossorigin="anonymous"></script>
+
     <title>切版測驗</title>
 </head>
 
 <body>
     <header id="navbar">
         <h1 class="logo">LOGO</h1>
-        <div class="navbar-link">
-            <a href="">FB</a>
-            <a href="">LINE</a>
-            <button class="login">登入</button>
+
+        <div id="link">
+            <div class="social">
+                <a href="#" class="link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="link"><i class="fab fa-line"></i></a>
+                <button class="login link">登入</button>
+            </div>
+
+            <div class="navbar-item">
+                <a href="" class="anchor">首頁</a>
+                <a href="" class="anchor">最新消息</a>
+                <a href="" class="anchor">關於我們</a>
+                <a href="" class="anchor">服務項目</a>
+                <a href="" class="anchor">Q&A活動</a>
+            </div>
+
         </div>
-        <ul class="navbar-item">
-            <li>首頁</li>
-            <li>關於我們</li>
-            <li>最新消息</li>
-            <li>服務項目</li>
-            <li>Q&A活動</li>
-        </ul>
+
+
     </header>
+
     <section id="four-items">
         <div class="circle">項目一</div>
         <div class="circle">項目二</div>
@@ -32,59 +45,59 @@
     </section>
 
     <section id="calendar">
+
+        <div class="calendar-item">
+            <h3>項目</h3>
+        </div>
+
         <table>
-            <thead>
-                <tr>項目</tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ID</td>
-                    <td>日期</td>
-                    <td>事件</td>
-                    <td>刪除</td>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>08/14</td>
-                    <td>文案一</td>
-                    <td><button class="delete-btn">按鈕</button></td>
-
-                </tr>
-                <tr>
-                    <td>02</td>
-                    <td>02/14</td>
-                    <td>文案二</td>
-                    <td><button class="delete-btn">按鈕</button></td>
-                </tr>
-                <tr>
-                    <td>03</td>
-                    <td>01/12</td>
-                    <td>文案三</td>
-                    <td><button class="delete-btn">按鈕</button></td>
-                </tr>
-            </tbody>
+            <tr class="table-item">
+                <td>ID</td>
+                <td>日期</td>
+                <td>事件</td>
+                <td>刪除</td>
+            </tr>
+            <tr class="table-item">
+                <td>01</td>
+                <td>08/14</td>
+                <td>文案一</td>
+                <td><button class="delete-btn">按鈕</button></td>
+            </tr>
+            <tr class="table-item">
+                <td>02</td>
+                <td>02/14</td>
+                <td>文案二</td>
+                <td><button class="delete-btn">按鈕</button></td>
+            </tr>
+            <tr class="table-item">
+                <td>03</td>
+                <td>01/12</td>
+                <td>文案三</td>
+                <td><button class="delete-btn">按鈕</button></td>
+            </tr>
         </table>
+
     </section>
 
-    <section id="img-area">
-        <img src="" alt="1">
-        <img src="" alt="2">
-        <img src="" alt="3">
-        <img src="" alt="4">
-        <img src="" alt="5">
-        <img src="" alt="6">
-    </section>
 
-    <section id="sidebar">
-        <h1>標題</h1>
-        <p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
-        ---
-        <h3>此區寬度為350px，螢幕寬度991以下，再往下掉</h3>
+    <section class="img-sidebar-section">
+
+        <div id="img-area">
+            <img src="" alt="1">
+            <img src="" alt="2">
+            <img src="" alt="3">
+            <img src="" alt="4">
+            <img src="" alt="5">
+            <img src="" alt="6">
+        </div>
+
+        <div id="sidebar">
+            <h1>標題</h1>
+            <p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+            ---
+            <h3>此區寬度為350px，螢幕寬度991以下，再往下掉</h3>
+        </div>
+
     </section>
 
     <footer id="footer">FOOTER</footer>
