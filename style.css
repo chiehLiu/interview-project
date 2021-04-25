@@ -151,21 +151,94 @@ tbody {
 
 .img-sidebar-section {
     display: flex;
+    height: 700px;
+    margin-top: 100px;
+    justify-content: center;
 }
 
 #img-area {
-    flex: 7;
+    /* flex: 6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1050px;
+    height: 700px;
+}
+
+#img-area img {
+    height: 350px;
+    width: 350px;
 }
 
 #sidebar {
-    flex: 3;
+    /* flex: 4; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
 }
+
+#sidebar h1 {
+    font-size: 50px;
+    /* margin-top: 10px; */
+    padding: 20px 30px;
+    margin-right: 170px;
+    font-weight: normal;
+    width: 200px;
+}
+
+#sidebar p {
+    display: block;
+    width: 350px;
+    font-size: 15px;
+    padding: 20px 30px;
+}
+
+#sidebar h3 {
+    margin-top: 300px;
+    width: 100%;
+    border-top: 1px solid red;
+    color: red;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+#sidebar h3 ::before {
+    position: relative;
+    top: 15px;
+    right: 10px;
+    display: block;
+    height: 50%;
+    content: '';
+    border-left: 1px red solid;
+    border-right: 1px solid red;
+    margin: 0 30px;
+    padding: 0 30px 0 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 10px;
     background-color: #eee;
+    height: 80px;
+    margin-top: 40px;
 }
