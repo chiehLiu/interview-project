@@ -1,5 +1,5 @@
 function getPic(data = {}) {
-    const url = 'http://multipleproduct.wacocolife.com/api/gallery/showClient/1';
+    const url = 'https://multipleproduct.wacocolife.com/api/gallery/showClient/1';
 
     fetch(url, {
             method: 'POST',
@@ -22,7 +22,7 @@ function getPic(data = {}) {
                 imgEl.classList.add('img-field')
                 imgEl.innerHTML = `
                 <h3 class="title">${img.title}</h3>
-                <img src="http://multipleproduct.wacocolife.com/${img.url}" alt="商品圖片示意圖">`;
+                <img src="https://multipleproduct.wacocolife.com/${img.url}" alt="商品圖片示意圖">`;
                 let imgArea = document.getElementById('img-sidebar')
                 imgArea.appendChild(imgEl)
             })
