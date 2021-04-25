@@ -16,8 +16,10 @@ function getPic(data = {}) {
             let imgI = result.items;
 
             imgI.forEach(img => {
+
                 const imgEl = document.createElement('div');
-                imgEl.classList.add('img-area')
+
+                imgEl.classList.add('img-field')
                 imgEl.innerHTML = `<img src="http://multipleproduct.wacocolife.com/${img.url}" alt="test">`;
                 let imgArea = document.getElementById('img-sidebar')
                 imgArea.appendChild(imgEl)

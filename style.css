@@ -138,11 +138,15 @@ tbody {
 }
 
 .calendar-item {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     border: 1px solid black;
     border-bottom: none;
-
+    width: 1453px;
+    text-align: left;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
 .table-item {
@@ -154,38 +158,45 @@ tbody {
 .img-sidebar-section {
     display: flex;
     height: 700px;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: center;
 }
 
 .img-area {
     /* flex: 6; */
+    order: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1050px;
-    height: 700px;
+    width: 1100px;
+    height: 600px;
+    /* margin-bottom: 20px; */
+    padding: 10px;
 }
 
+.img-field {}
+
 .img-area img {
-    height: 350px;
-    width: 350px;
+    height: 330px;
+    width: 330px;
+    margin: 10px;
 }
 
 #sidebar {
     /* flex: 4; */
+    order: 2;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 350px;
+    height: 700px;
 }
 
 #sidebar h1 {
     font-size: 50px;
-    /* margin-top: 10px; */
     padding: 20px 30px;
     margin-right: 170px;
     font-weight: normal;
